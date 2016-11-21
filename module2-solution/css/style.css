@@ -10,33 +10,7 @@ h1 {
 	margin-left: 50px;
 }
 
-#uno h3 {
-	float: right;
-	position: relative;
-	margin-top: 0;
-	margin-right: 0;
-	background-color: white;
-	border: 1px solid brown;
-	background-color: rgb(227, 27, 249);
-}
-#dos h3 {
-	float: right;
-	position: relative;
-	margin-top: 0;
-	margin-right: 0;
-	background-color: white;
-	border: 1px solid  green;
-	background-color: rgb(227, 27, 249);
-}
 
-#tres h3 {
-	float: right;
-	position: relative;
-	margin-top: 0;
-	margin-right: 0;
-	background-color: white;
-	border: 1px solid blue;
-	background-color: rgb(227, 27, 249);
 }
 .row p {
   background-color: rgb(242, 160, 9);
