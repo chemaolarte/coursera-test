@@ -1,19 +1,19 @@
-/********** Base styles **********/
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
 
-body h1 {
-	color: rgb(1, 74, 153);
-	font-family: helvetica;
-	margin-bottom: 50px;
-	text-align: center;
 }
-
-/** Header **/
-
+div.pri {
+  color: rgb(1, 74, 153);
+  text-shadow: 1px 1px 1px #222;
+  text-align: center;
+}
+/** HEADER **/
 #header-nav {
   background-color: rgb(44, 114, 193);
   border-radius: 0;
   border: 0;
-
 }
 
 #logo-img {
@@ -24,29 +24,29 @@ body h1 {
 }
 
 .navbar-brand {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
-.navbar-brand h1 {
-  font-family: Helvetica, serif;
+.navbar-brand h1 { /* page name*/
+  font-family: 'Lora', serif;
   color: rgb(143, 193, 247);
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
 }
-
-.navbar-brand a:hover, .navbar-brand a:focus{
+ .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
+
 #nav-list {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: rgb(143, 193, 247);
   text-align: center;
 }
 #nav-list a:hover {
@@ -55,6 +55,7 @@ body h1 {
 #nav-list a span {
   font-size: 1.8em;
 }
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
@@ -62,7 +63,8 @@ body h1 {
   clear: both;
   margin-top: -30px;
 }
-/** End Header **/
+/* end header */
+
 /* home*/
 
 #uno h3 {
@@ -105,46 +107,4 @@ body h1 {
   color: rgb(143, 193, 247);
 
 }
-
-
-/********** Medium devices only **********/
-@media (max-width: 1199px) and (min-width: 992px)
- {
-  #logo-img {
-  background: url('../images/Dharma_Wheel.png') no-repeat;
-  width: 100px;
-  height: 100px;
-  margin: 5px 5px 5px 0;
-  }
-
-/*********** Small devices only**********/
-@media (max-width: 991px) and (min-width: 768px) { 
-  #logo-img {
-  background: url('../images/50px-600px-Dharma_Wheel.png') no-repeat;
-  width: 50px;
-  height: 50px;
-  margin: 5px 5px 5px 0;
-}
-  .navbar-brand h1 {
-  padding-top: 10px;
-  font-size: 5vw; /* 1vw = 1% of viewport width */
-    }
-}
-
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-  #logo-img {
-  background: url('../images/50px-600px-Dharma_Wheel.png') no-repeat;
-  width: 10px;
-  height: 10px;
-  margin: 5px 5px 5px 0;
-}
-  /* Header */
-  .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-  }
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
+/* end home*/
