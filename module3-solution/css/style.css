@@ -8,6 +8,8 @@ div.pri {
   color: rgb(1, 74, 153);
   text-shadow: 1px 1px 1px #222;
   text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 /** HEADER **/
 #header-nav {
@@ -46,19 +48,20 @@ div.pri {
   margin-top: 10px;
 }
 #nav-list a {
-  color: rgb(143, 193, 247);
+  color: #193c63;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #c2ddfc;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid rgb(1, 74, 153);
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
@@ -66,7 +69,10 @@ div.pri {
 /* end header */
 
 /* home*/
-
+h3 a:hover, h3 a:focus {
+  text-decoration: none;
+  color: black;
+}
 #uno h3 {
   color: rgb(1, 74, 153);
   float: right;
@@ -97,6 +103,12 @@ div.pri {
   background-color: rgb(117, 179, 249);
 }
 
+#ar {
+  text-decoration: none;
+  text-decoration-color: black;
+  color: #193c63;
+}
+
 .row p {
   background-color: rgb(44, 114, 193);
   border: 1px solid rgb(1, 74, 153);
@@ -108,3 +120,65 @@ div.pri {
 
 }
 /* end home*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+#logo-img {
+  background: url('../images/Dharma_Wheel.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 5px 5px 5px 0;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+#logo-img {
+  background: url('../images/icono_hoja_32x32.png') no-repeat;
+  width: 10px;
+  height: 10px;
+  margin: 0px 0px 0px 0;
+}
+}
+
+@media (max-width: 767px) {
+#logo-img {
+  background: url('../images/icono_hoja_32x32.png') no-repeat;
+  width: 10px;
+  height: 10px;
+  margin: 0px 0px 0px 0;
+}
+.navbar-brand {
+  padding-top: 10px;
+  height: 80px;
+}
+div.pri {
+  font-size: 5vw;
+  }
+.navbar-brand h1 { 
+  padding-top: 10px;
+  font-size: 5vw; 
+}
+#collapsable-nav a { 
+  font-size: 1.2em;
+}
+#collapsable-nav a span {
+  font-size: 1em;
+  margin-right: 10px;
+}
+}
+
+@media (max-width: 479px) {
+#menu-tile, #specials-tile {
+  width: 280px;
+  margin: 0 auto 15px;
+}
+div.pri {
+  font-size: 6vw;
+  }
+.navbar-brand h1 { 
+  padding-top: 5px;
+  font-size: 6vw; 
+}
+}
+
